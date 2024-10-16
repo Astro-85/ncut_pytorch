@@ -216,8 +216,6 @@ def eigenvector_to_rgb(
     else:
         raise ValueError("method should be 'tsne_2d', 'tsne_3d' or 'umap_sphere'")
 
-    
-
     return embed, rgb
 
 
